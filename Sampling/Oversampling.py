@@ -13,7 +13,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # import data
-df = pd.read_csv('../Assignment3-TrainingData.csv')
+df = pd.read_csv('../Feature-Selection/Assignment3-TrainingData.csv')
 
 # encode data to string https://stackoverflow.com/questions/46500357/valueerror-could-not-convert-string-to-float-med
 le = preprocessing.LabelEncoder()
